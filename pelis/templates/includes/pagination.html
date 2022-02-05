@@ -17,7 +17,7 @@
                     <a class="page-link">{{ i }}</a>
               </li>
             {% else %}
-              <li class="page-item"><a href="?{{ query_string }}&amp;page={{ i }}" class="page-link">{{ i }}</a></li>
+              <li class="page-item"><a href="?{{ qs }}&amp;page={{ i }}" class="page-link">{{ i }}</a></li>
             {% endif %}
           {% endfor %}
 
