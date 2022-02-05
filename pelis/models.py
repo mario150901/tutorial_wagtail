@@ -7,6 +7,7 @@ from wagtail.admin.edit_handlers import FieldPanel
 from wagtail.snippets.models import register_snippet
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.utils.text import slugify
+from urllib.parse import urlparse, parse_qs, urlencode, parse_qsl
 
 
 # Create your models here.
@@ -88,6 +89,11 @@ class PelisIndexPage(Page):
         # Update context to include only published posts, ordered by reverse-chron
         context = super().get_context(request)
         context['peliculas'] = self.paginate(request)
+        context['direccion'] = request.get_full_path()
+        query = request.META.get('QUERY_STRING')
+        querydict = [x for x in parse_qsl(query) if x[0] != 'page']
+        
+        context['query_string'] = urlencode(querydict)
         
         return context
 
