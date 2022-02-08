@@ -54,6 +54,9 @@ class Pelicula(models.Model):
     ]
     def __str__(self):
         return f'{self.title} ({self.year})'
+
+    def generosstr(self):
+        return ', '.join([g.nombre for g in self.generos.all()])
     
     class Meta:
         verbose_name = 'Película'
@@ -91,7 +94,7 @@ class PelisIndexPage(Page):
         else:
             peliculas = Pelicula.objects.all()
 
-        context['peliculas'] = self.paginate(request, peliculas)
+        context['peliculas'] = peliculas
         context['qs'] = qs
         
         return context
