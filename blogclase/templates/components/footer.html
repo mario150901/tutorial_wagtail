@@ -1,0 +1,29 @@
+{% load blog_tags static %}
+<style>
+
+  html {
+    min-height: 100%;
+    position: relative;
+  }
+
+  body {
+    margin: 0;
+    margin-bottom: 100px;
+  }
+
+ #a {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+
+ }
+</style>
+<footer class="mt-4 py-4 bg-dark" id="a">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+        {% get_footer_text %}
+        {% get_footer_url %}
+      </p>
+    </div>
+  </footer>

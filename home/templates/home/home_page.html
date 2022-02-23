@@ -10,6 +10,15 @@
 
 {% block content %}
 <div class="container mt-5">
-{{page.body | richtext}}
+    <br>
+    {{page.body | richtext}}
+    <h3>Últimas noticias</h3>
+{% for noticia in noticias %}
+<div class="noticia mt-4">
+    <h5><a href="{{noticia.get_url}}">{{ noticia.title }}</a></h5>
+    {{ noticia.intro }}
+</div>
+{{ noticia.title }}
+{% endfor %}
 </div>
 {% endblock content %}

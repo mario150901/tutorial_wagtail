@@ -1,3 +1,4 @@
+from tabnanny import verbose
 from django.db import models
 from django import forms
 
@@ -110,3 +111,14 @@ class BlogCategory(models.Model):
     class Meta:
         verbose_name_plural = 'categorías de blog'
         verbose_name = 'categoría de blog'
+
+@register_snippet
+class FooterText(models.Model):
+    titulo = models.CharField(max_length=255)
+    url = models.URLField(blank=True)
+
+    def __str__(self):
+        return self.titulo
+    
+    class Meta:
+        verbose_name = 'Footer'
