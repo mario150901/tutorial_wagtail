@@ -1,0 +1,707 @@
+[
+    {
+        "rows": [
+            {
+                "values": [
+                    "Entidad", 
+                    "Domicilio", 
+                    "C.P", 
+                    "Localidad", 
+                    "Horario", 
+                    "Web", 
+                    "Email", 
+                    "Tfno", 
+                    "Fax"
+                ], 
+                "name": "0"
+            }, 
+            {
+                "values": [
+                    "ACTIVIDADES SUBACUATICAS", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu y Mi de 18 a 21 h.", 
+                    "http://faras.es/", 
+                    "administracion@faras.es", 
+                    "976 730 120", 
+                    ""
+                ], 
+                "name": "1"
+            }, 
+            {
+                "values": [
+                    "AJEDREZ", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu y Mi de 18 a 20 h.", 
+                    "http://ajedrezaragon.com", 
+                    "fada@ajedrezaragon.com", 
+                    "976 526213", 
+                    ""
+                ], 
+                "name": "2"
+            }, 
+            {
+                "values": [
+                    "ATLETISMO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 10 a 13 h.", 
+                    "http://federacionaragonesadeatletismo.com", 
+                    "faa@federacionaragonesadeatletismo.com", 
+                    "976 730 250", 
+                    ""
+                ], 
+                "name": "3"
+            }, 
+            {
+                "values": [
+                    "AUTOMOVILISMO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu, Ma, Ju y Vi de 09 a 16 h. Mi de 9 a 20 h.", 
+                    "http://fada.es", 
+                    "info@fada.es", 
+                    "976 731 327", 
+                    ""
+                ], 
+                "name": "4"
+            }, 
+            {
+                "values": [
+                    "BADMINTON", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Mi  de 16 a 18 h.", 
+                    "http://badmintonaragon.es", 
+                    "farbad@hotmail.com", 
+                    "976730986 / 606994461 ", 
+                    ""
+                ], 
+                "name": "5"
+            }, 
+            {
+                "values": [
+                    "BAILE DEPORTIVO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Ma de 17:00 a 18:30 h.", 
+                    "http://fabdc.es", 
+                    "info@fabd.es", 
+                    "625230465 625095353", 
+                    "976 306 421"
+                ], 
+                "name": "6"
+            }, 
+            {
+                "values": [
+                    "BALONCESTO", 
+                    "Pza. Herrera de los Navarros 2", 
+                    50002.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 10 a 14 h. Lu, Ma y Ju de 17:30 a 20 h.", 
+                    "http://fabasket.com", 
+                    "fabasket@fabasket.com", 
+                    "976 395 050", 
+                    "976 391 881"
+                ], 
+                "name": "7"
+            }, 
+            {
+                "values": [
+                    "BALONMANO", 
+                    "Pº. San Sebastian nº 3", 
+                    50006.0, 
+                    "ZARAGOZA", 
+                    "Lu a Mi de17:00 a 20:00 h.", 
+                    "http://farbm.com", 
+                    "farbm@farbm.com", 
+                    "976 560 677", 
+                    ""
+                ], 
+                "name": "8"
+            }, 
+            {
+                "values": [
+                    "BILLAR", 
+                    "C/ Argualas, 50 (E. M.\"El Olivar\")", 
+                    50012.0, 
+                    "ZARAGOZA", 
+                    "Cita Previa", 
+                    "https://fabcarambolablog.wordpress.com/", 
+                    "valerianocascallar@gmail.com", 
+                    976559697.0, 
+                    ""
+                ], 
+                "name": "9"
+            }, 
+            {
+                "values": [
+                    "BOXEO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Cita previa", 
+                    "http://feboxeo.com", 
+                    "federacionaragonesaboxeo@gmail.com", 
+                    "637 555 194 / 655 191 907", 
+                    ""
+                ], 
+                "name": "10"
+            }, 
+            {
+                "values": [
+                    "CAZA", 
+                    "Plaza Canal Imperial, 2. local", 
+                    50007.0, 
+                    "ZARAGOZA", 
+                    "L a J de 9:30-13:30 h y 16:30-19:30 h. Excepto V de8 a 15 h", 
+                    "http://farcaza.es", 
+                    "administracion@farcaza.es", 
+                    "976 730 484", 
+                    "976 218 012"
+                ], 
+                "name": "11"
+            }, 
+            {
+                "values": [
+                    "CICLISMO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 10 a 14 h. Ma y Ju de 17:30 a 20 h.", 
+                    "http://aragonciclismo.com", 
+                    "info@aragonciclismo.com", 
+                    "976 730 248", 
+                    "976 730 733"
+                ], 
+                "name": "12"
+            }, 
+            {
+                "values": [
+                    "COLOMBOFILIA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Cita previa", 
+                    "http://facolombofilia.com/", 
+                    "jameller@jaimeameller.com", 
+                    609777566.0, 
+                    ""
+                ], 
+                "name": "13"
+            }, 
+            {
+                "values": [
+                    "COLUMBICULTURA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Mi de 18 a 21 h.", 
+                    "http://realfec.es", 
+                    "aracolum40@hotmail.com", 
+                    657204091.0, 
+                    ""
+                ], 
+                "name": "14"
+            }, 
+            {
+                "values": [
+                    "DEPORTES AÉREOS", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 17 a 20 h.", 
+                    "http://fada.aero", 
+                    "correo@fada.aero", 
+                    "", 
+                    ""
+                ], 
+                "name": "15"
+            }, 
+            {
+                "values": [
+                    "DEPORTES DE INVIERNO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 9,30 a 14,30 h.", 
+                    "http://fadiaragon.org", 
+                    "info@fadiaragon.org / fadi-aragon@fadiaragon.org", 
+                    "976 742 968", 
+                    "976 466 015"
+                ], 
+                "name": "16"
+            }, 
+            {
+                "values": [
+                    "DEPORTES TRADICIONALES", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Ju de 17:30 a 19 h.", 
+                    "http://deportestradicionales.es", 
+                    "info@deportestradicionales.es / fadtradicionales@gmail.com", 
+                    "", 
+                    ""
+                ], 
+                "name": "17"
+            }, 
+            {
+                "values": [
+                    "ESGRIMA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Cita Previa", 
+                    "http://esgrimaaragon.org", 
+                    "fed_arag_esg@yahoo.es", 
+                    "660 760 091", 
+                    ""
+                ], 
+                "name": "18"
+            }, 
+            {
+                "values": [
+                    "ESPELEOLOGÍA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu y Ju de 18:30 a 21 h.", 
+                    "http://federacionaragonesaespeleologia.com", 
+                    "aragonespeleofae@gmail.com", 
+                    "976 730 434", 
+                    "976 730 434"
+                ], 
+                "name": "19"
+            }, 
+            {
+                "values": [
+                    "FUTBOL", 
+                    "Parque Roma bl.I, 5", 
+                    50010.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 9:30 a 14 h. y de 17 a 20 h. Sa de 11 a13 h.", 
+                    "http://futbolaragon.com", 
+                    "federacion@futbolaragon.com", 
+                    "976 316 103", 
+                    "976 533 699"
+                ], 
+                "name": "20"
+            }, 
+            {
+                "values": [
+                    "GIMNASIA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 18 a 21 h.", 
+                    "http://aragongym.com", 
+                    "federacion@aragongym.com", 
+                    "976 523612", 
+                    ""
+                ], 
+                "name": "21"
+            }, 
+            {
+                "values": [
+                    "GOLF", 
+                    "Avd. Cesar Augusto, 3 3ºa", 
+                    50004.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 10 a 13 h. / Ju de 16 h. a 18 h.", 
+                    "http://aragongolf.com/", 
+                    "admin@aragongolf.com", 
+                    "976 731 374", 
+                    "976 730 608"
+                ], 
+                "name": "22"
+            }, 
+            {
+                "values": [
+                    "HALTEROFILIA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Ma de 18 a 20 h.", 
+                    "http://halteraragon.com/", 
+                    "feder.aragonesa.halterofilia@gmail.com", 
+                    609068728.0, 
+                    ""
+                ], 
+                "name": "23"
+            }, 
+            {
+                "values": [
+                    "HÍPICA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Ju de 19 a 21 h.", 
+                    "http://fharagonesa.org", 
+                    "info@fharagonesa.org", 
+                    "976 730 904", 
+                    "976 737 235"
+                ], 
+                "name": "24"
+            }, 
+            {
+                "values": [
+                    "HOCKEY", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Ma y Ju de 18  a 20 h.", 
+                    "http://hockeyaragon.es/", 
+                    "secretario@hockeyaragon.es", 
+                    "976 731 353", 
+                    ""
+                ], 
+                "name": "25"
+            }, 
+            {
+                "values": [
+                    "JUDO Y DEPORTES ASOCIADOS", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 10 a 13:00 h.", 
+                    "http://fajyda.es", 
+                    "secretaria@fajyda.es", 
+                    "976 730 809", 
+                    "976 521 905"
+                ], 
+                "name": "26"
+            }, 
+            {
+                "values": [
+                    "KARATE Y DISCIPLINAS ASOC.", 
+                    "C/ Aaiún Casa 9 (Edificio Don 2000)", 
+                    50002.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 9:30  a 13:30 h.", 
+                    "http://federacionaragonesadekarate.es/", 
+                    "info@federacionaragonesadekarate.es", 
+                    "976 731 417", 
+                    "976 731 417"
+                ], 
+                "name": "27"
+            }, 
+            {
+                "values": [
+                    "LUCHA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Ju de 20 a 21 h.", 
+                    "http://federacionaragonesadelucha.blogspot.com.es/", 
+                    "federacionaragonesadeluchas@gmail.com", 
+                    "976 731 486", 
+                    ""
+                ], 
+                "name": "28"
+            }, 
+            {
+                "values": [
+                    "MONTAÑISMO", 
+                    "Albareda, 7. 4º. 4ª", 
+                    50004.0, 
+                    "ZARAGOZA", 
+                    "De Lu a Vi de 11 a 13 h. / Lu a Ju de 16:30 a 19:30 h.", 
+                    "http://fam.es", 
+                    "fam@fam.es", 
+                    "976 227 971", 
+                    "976 212 459"
+                ], 
+                "name": "29"
+            }, 
+            {
+                "values": [
+                    "MOTOCICLISMO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 9:00 a 13:30 h.", 
+                    "http://faram.es", 
+                    "faram@faram.es", 
+                    "976 730 970 / 636 326 907", 
+                    "976 741 483"
+                ], 
+                "name": "30"
+            }, 
+            {
+                "values": [
+                    "NATACIÓN", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 9:30 a 12 h / Lu a Ju de 17 a 19 h", 
+                    "http://fanaragon.com", 
+                    "info@fanaragon.com", 
+                    "976 730 750", 
+                    ""
+                ], 
+                "name": "31"
+            }, 
+            {
+                "values": [
+                    "ORIENTACIÓN", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Mi de 19:00 a 21:00 h", 
+                    "http://orientaragon.com", 
+                    "secretaria@orientaragon.com", 
+                    "contacto email", 
+                    "contacto email"
+                ], 
+                "name": "32"
+            }, 
+            {
+                "values": [
+                    "PADEL", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 9  a 13h", 
+                    "http://arapadel.com", 
+                    "administracion@arapadel.com", 
+                    "976 528 628", 
+                    ""
+                ], 
+                "name": "33"
+            }, 
+            {
+                "values": [
+                    "PATINAJE", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Ma y Ju de 19 a 21 h.", 
+                    "http://fearpa.com", 
+                    "fearpa@fearpa.com", 
+                    "976 525 736", 
+                    ""
+                ], 
+                "name": "34"
+            }, 
+            {
+                "values": [
+                    "PELOTA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50014.0, 
+                    "ZARAGOZA", 
+                    "Ma y Vi de 10 a 13 h", 
+                    "http://faragpelota.com", 
+                    "secretaria@faragpelota.com", 
+                    "615 595 706", 
+                    ""
+                ], 
+                "name": "35"
+            }, 
+            {
+                "values": [
+                    "PESCA Y CASTING", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Ju de 10 a 14 h  y de17 a 20 h. Vi de 10 a 14 h", 
+                    "http://fapyc.es", 
+                    "fapyc@fapyc.es", 
+                    "976 730 827", 
+                    ""
+                ], 
+                "name": "36"
+            }, 
+            {
+                "values": [
+                    "PETANCA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Ma y Ju de 19 a 21 h.", 
+                    "http://petancaaragon.com/", 
+                    "fapetanca@petancaaragon.com", 
+                    "976 731469", 
+                    ""
+                ], 
+                "name": "37"
+            }, 
+            {
+                "values": [
+                    "PIRAGÜISMO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu y Mi de 18 a 21 h.", 
+                    "http://fapiraguismo.es", 
+                    "correo@fapiraguismo.es", 
+                    "976 799 741", 
+                    ""
+                ], 
+                "name": "38"
+            }, 
+            {
+                "values": [
+                    "REMO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Mi de 16:30 a 20 h.", 
+                    "http://farremo.es", 
+                    "farremo@farremo.es", 
+                    "976 525 663", 
+                    ""
+                ], 
+                "name": "39"
+            }, 
+            {
+                "values": [
+                    "RUGBY", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu y Ju de 19 a 21 h", 
+                    "http://rugbyaragon.com/", 
+                    "secretario@rugbyaragon.com", 
+                    "634 266 311", 
+                    ""
+                ], 
+                "name": "40"
+            }, 
+            {
+                "values": [
+                    "SALVAMENTO Y SOCORRISMO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu, Mi y Vi de 10:30 a 13:15 / Lu, Mi y Vi de 17 a 20:30 h.", 
+                    "http://sosaragon.com", 
+                    "fass@sosaragon.com", 
+                    "976  733 460", 
+                    ""
+                ], 
+                "name": "41"
+            }, 
+            {
+                "values": [
+                    "TAEKWONDO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Ju de 10 a 13 h. / Lu de 17 a 20 h.", 
+                    "http://taekwondoaragon.blogspot.com/", 
+                    "fedtaekwondoaragon@gmail.com", 
+                    "976 731 406", 
+                    ""
+                ], 
+                "name": "42"
+            }, 
+            {
+                "values": [
+                    "TENIS", 
+                    "Andador José Castán, 4", 
+                    50009.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 10 a 13 h. y de 17 a20 h.", 
+                    "http://aragontenis.com", 
+                    "federacion@aragontenis.com", 
+                    "976 750 462", 
+                    "976 75 06 39"
+                ], 
+                "name": "43"
+            }, 
+            {
+                "values": [
+                    "TENIS DE MESA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Ma y Ju de 18 a 21 h.", 
+                    "http://aragontenisdemesa.com", 
+                    "secretaria@aragontenisdemesa.com", 
+                    "976 510 572", 
+                    ""
+                ], 
+                "name": "44"
+            }, 
+            {
+                "values": [
+                    "TIRO CON ARCO", 
+                    "Pº Teruel, 36. bajos", 
+                    50004.0, 
+                    "ZARAGOZA", 
+                    "Lu y Mi de 19 a 21h.", 
+                    "http://arcoaragon.com", 
+                    "info@arcoaragon.com", 
+                    "976 226 032", 
+                    "976 226 032"
+                ], 
+                "name": "45"
+            }, 
+            {
+                "values": [
+                    "TIRO OLÍMPICO", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "M y J de 18 a 21 h.", 
+                    "http://tirofato.com", 
+                    "correo@tirofato.com", 
+                    "976 731 309", 
+                    "976 737 202"
+                ], 
+                "name": "46"
+            }, 
+            {
+                "values": [
+                    "TRIATLÓN", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Ma,Mi,Ju y Vi de 9:30 a 13 h / Lu de 16 a 20 h.", 
+                    "http://triatlonaragon.org", 
+                    "secretario@triatlonaragon.org", 
+                    "976 516 083", 
+                    "976 516 083"
+                ], 
+                "name": "47"
+            }, 
+            {
+                "values": [
+                    "VELA", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Mi  de 19 a 20:30 h", 
+                    "http://velaaragon.es", 
+                    "federacion@velaaragon.es", 
+                    668856033.0, 
+                    ""
+                ], 
+                "name": "48"
+            }, 
+            {
+                "values": [
+                    "VOLEIBOL", 
+                    "Av.  José Atarés,101 semisótano", 
+                    50018.0, 
+                    "ZARAGOZA", 
+                    "Lu a Vi de 10 a 13 h.", 
+                    "http://favb.es", 
+                    "secretaria@favb.es", 
+                    976730841.0, 
+                    ""
+                ], 
+                "name": "49"
+            }
+        ], 
+        "name": "Hoja1"
+    }
+]

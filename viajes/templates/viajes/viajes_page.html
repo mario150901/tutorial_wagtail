@@ -5,9 +5,10 @@
 {% block body_class %}template-blogindexpage{% endblock %}
 
 {% block extra_css %}
-<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
 {% endblock %}
-
 {% block content %}
 <div class="container">
     <h1>{{ page.title }}</h1>
@@ -15,5 +16,24 @@
     {{page.title}}
     {{page.texto | richtext}}
 </div>
+<div id="map"></div>
+<p><a href="{{ page.get_parent.url }}">Volver a Viajes</a></p>
+{% endblock %}
 
+{% block extra_js %}
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+crossorigin=""></script>
+
+<script>
+var map = L.map('map').setView([26.658439532482593, 29.965866937829244], 5);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+L.marker([26.658439532482593, 29.965866937829244]).addTo(map)
+    .bindPopup('El Cairo, Egipto')
+    .openPopup();
+</script>
 {% endblock %}
