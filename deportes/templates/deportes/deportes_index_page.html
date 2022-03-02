@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags %}
+
+{% block body_class %}template-blogindexpage{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ page.title }}</h1>
+<hr>
+<!--<p><a href="?decada=90">Década de los 90</a></p>-->
+    <table id="federaciones">
+        <thead>
+            <tr><td>Entidad</td><td>Web</td><td>Horario</td><td>Email</td></tr>
+        </thead>
+        <tbody>
+        {% for deporte in deportes %}
+        <tr><td>{{deporte.entidad}}</td><td>{{deporte.web}}</td>
+        <td>{{deporte.horario}}</td><td>{{deporte.email}}</td>
+        </tr>
+        {% endfor %}
+</tbody>
+</table>
+<!--{% if peliculas.paginator.count > 1 %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                {% include "includes/pagination.html" with subpages=peliculas %}
+                </div>
+            </div>
+        </div>
+    {% endif %}-->
+    <p><a href="{{ page.get_parent.url }}">Volver al blog</a></p>
+</div>
+
+{% endblock %}
+{% block extra_js %}
+<script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="//cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+<script> 
+$(document).ready( function () {
+    $('#federaciones').DataTable();
+} );
+</script>
+{% endblock %}

@@ -12,6 +12,7 @@ class Deporte(models.Model):
     localidad = models.CharField(max_length=250)
     horario = models.CharField(max_length=250)
     web = models.URLField(blank=True)
+    email = models.URLField(blank=True)
     telefono = models.CharField(max_length=250)
     fax = models.CharField(max_length = 250)
 
@@ -22,6 +23,7 @@ class Deporte(models.Model):
         FieldPanel('localidad'),
         FieldPanel('horario'),
         FieldPanel('web'),
+        FieldPanel('email'),
         FieldPanel('telefono'),
         FieldPanel('fax')
 

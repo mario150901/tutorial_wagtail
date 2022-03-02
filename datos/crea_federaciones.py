@@ -6,29 +6,31 @@ ejecutar:
 python manage.py shell < datos/crear_eventos.py
 '''
 
-from deportes.models import Deporte
 import datetime as dt
 import json
 import os
+import csv
 
+datos = json.load(open("federaciones-deportivas-aragonesas.json",  encoding="utf-8"))
+# print(datos)
+#limpieza
+datos = datos[0]
+datos = datos["rows"]
+datos = [d["values"] for d in datos]
+claves = datos[0]
 
-# borrar eventos
-for e in Deporte.objects.all():
-    e.delete()
+#crear csv
+f = open("equipos.csv", "w")
+fw = csv.writer(f)
+fw.writerows(datos)
+f.close()
 
-#lista de eventos del json
-if os.path.exists("datos/federaciones-deportivas-aragonesas.json"):
-    events = json.load(open("datos/federaciones-deportivas-aragonesas.json", encoding="utf-8"))
-else:
-    events = json.load(open("federaciones-deportivas-aragonesas.json", encoding="utf-8"))
+# De csv a json
+from csv import DictReader
+dr = DictReader(open("equipos.csv"))
+datosj = [x for x in dr]
 
-events = events['docs']
-for e1 in events:
-    e = Deporte()
-    e.nombre = e1["nombre"].replace('"', "")
-    e.descripcion = e1["descripcion"]
-    e.imagen = e1["imagen"]
-    e.fecha_inicio = dt.datetime.strptime(str(e1["fecha_inicio"]), "%Y%m%d").date()
-    e.categoria = e1["categoria"]
-    e.autor = e1['autor']
-    e.save()
+# Convertir listas a json
+datosj = [dict(zip(claves, d)) for d in datos[1:]]
+print(datosj)
+json.dump(datosj, open("datos_equipos.json", "w", encoding='utf-8'), ensure_ascii=False)
