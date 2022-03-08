@@ -15,7 +15,7 @@ python -m venv env
 # Activación del entorno virtual
 
 1. Windows
-\env\Scripts\activate.bat
+env\Scripts\activate.bat
 
 2. Linux y Mac
 source tutorial-env/bin/activate
