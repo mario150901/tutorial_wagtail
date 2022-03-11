@@ -31,7 +31,7 @@ class Deporte(models.Model):
 
 
     def __str__(self):
-        return f'{self.entidad} ({self.domicilio})'
+        return f'{self.entidad} ({self.domicilio}, {self.localidad}, {self.web}) '
     
     class Meta:
         verbose_name = 'Federación deportiva'
