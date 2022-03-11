@@ -18,6 +18,6 @@ class HomePage(Page):
     def get_context(self, request):
         context = super().get_context(request)
         indice_noticias = BlogIndexPage.objects.get(title="Noticias")
-        noticias = BlogPage.objects.descendant_of(indice_noticias).order_by("-date")[:5]     
+        noticias = BlogPage.objects.descendant_of(indice_noticias).order_by("-first_published_at")[:5]     
         context['noticias'] = noticias
         return context
